@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label  class="control-label"></label>
+            <textarea class="form-control editor" id="editor"></textarea>
+            <span  class="text-danger"></span>
+        </div>
+    </div>
+
+	
+	<button id=getdata>Print data</button>
+</div>
+
+<div class="row">
+	<div class="col">
+		<div class="form-group">
+			<textarea class="form-control" id="test"></textarea>
+		</div>
+	</div>
+
+</div>
+
+<style>
+    /*Textbox*/
+    .ck-editor__editable {
+            height: 100vh;
+    }
+    /*Toolbar*/
+    .ck-editor__top {
+    }
+</style>
